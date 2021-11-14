@@ -73,7 +73,7 @@
   height: 50px;
   padding: 15px 10px;
 
-  color: var(--first-color-white);
+  color: var(--first-color);
   overflow: hidden;
 
   outline: none;
@@ -97,7 +97,7 @@
   border-radius: 4px;
   border: transparent;
 
-  color: var(--first-color-white);
+  color: var(--first-color);
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -107,6 +107,6 @@
 }
 .footer-form__icon {
   margin-left: 10px;
-  fill: var(--first-color-white);
+  fill: var(--first-color);
 }
 /*#endregion #*/

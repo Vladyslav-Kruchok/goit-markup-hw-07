@@ -282,7 +282,7 @@ header {
   width: 358px;
   height: 50px;
   padding: 15px 10px;
-  color: var(--first-color-white);
+  color: var(--first-color);
   overflow: hidden;
   outline: none;
   border-style: none;
@@ -303,7 +303,7 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: transparent;
-  color: var(--first-color-white);
+  color: var(--first-color);
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -313,7 +313,7 @@ header {
 
 .footer-form__icon {
   margin-left: 10px;
-  fill: var(--first-color-white);
+  fill: var(--first-color);
 }
 
 /*#endregion #*/

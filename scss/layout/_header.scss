@@ -1,0 +1,68 @@
+/*#region ----------header-common---------- #*/
+.header__box {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header__link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+
+  transition: var(--animate-color);
+}
+.header__link:hover,
+.header__link:focus {
+  color: var(--active-item-color);
+}
+.header__item:not(:last-child) {
+  margin-right: 50px;
+}
+/*#endregion #*/
+
+/*#region ----------header-logo---------- #*/
+.header-logo__pos {
+  margin-right: 93px;
+}
+.header-logo__span {
+  color: var(--second-color);
+}
+/*#endregion #*/
+
+/*#region ----------header-nav---------- #*/
+.header__list {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.current-page {
+  position: relative;
+  color: var(--active-item-color);
+}
+.current-page::after {
+  position: absolute;
+  bottom: -200%;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--active-item-color);
+}
+/*#endregion #*/
+
+/*#region ----------contacts---------- #*/
+.contact-item {
+  display: flex;
+  color: var(--third-color);
+}
+.header-contacts__icon {
+  display: block;
+  fill: currentColor;
+  margin-right: 10px;
+}
+/*#endregion #*/

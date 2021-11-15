@@ -1,0 +1,35 @@
+/*#region ----------clients---------- #*/
+.cards-clients__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards-clients__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.cards-clients__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  height: 92px;
+
+  color: var(--icon-color);
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+
+  transition: var(--animate-color), var(--animate-box-shadow);
+
+  &:hover,
+  &:focus {
+    color: var(--icon-color-active);
+    border: 1px solid var(--icon-color-active);
+  }
+}
+.cards-clients__icon {
+  fill: currentColor;
+}
+/*#endregion #*/

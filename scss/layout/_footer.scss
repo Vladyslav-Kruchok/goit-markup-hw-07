@@ -54,10 +54,11 @@
 .footer-social__link {
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--first-color-white);
-}
-.footer-social__link:hover,
-.footer-social__link:focus {
-  background-color: var(--icon-color-active);
+
+  &:hover,
+  &:focus {
+    background-color: var(--icon-color-active);
+  }
 }
 /*#endregion #*/
 

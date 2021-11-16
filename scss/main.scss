@@ -1,18 +1,27 @@
-//UTILS
+/*#region ----------UTILS---------- #*/
 @import './utils/variable';
 @import './utils/visually-hidden';
-//BASE
+/*#endregion #*/
+
+/*#region ----------BASE---------- #*/
 @import './base/common';
-//COMPONETS
+/*#endregion #*/
+
+/*#region ----------COMPONETS---------- #*/
 @import './components/container';
 @import './components/section';
 @import './components/logo';
 @import './components/social';
-//LAYOUT
+/*#endregion #*/
+
+/*#region ----------LAYOUT---------- #*/
 @import './layout/header';
-@import './layout/footer';
 @import './layout/hero';
 @import './layout/peculiarity';
 @import './layout/what-todo';
 @import './layout/team';
 @import './layout/clients';
+@import './layout/modal-order';
+@import './layout/portfolio';
+@import './layout/footer';
+/*#endregion #*/

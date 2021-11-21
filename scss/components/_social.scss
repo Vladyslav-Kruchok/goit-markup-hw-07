@@ -1,5 +1,5 @@
 /*#region ----------social---------- #*/
-.social__list {
+.social {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+
   transition: var(--animate-bck-color), var(--animate-color);
 }
 .social__icon {

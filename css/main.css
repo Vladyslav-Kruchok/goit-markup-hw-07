@@ -752,7 +752,7 @@ header {
 /*#region ----------footer-common---------- #*/
 .footer {
   background: var(--fourth-color);
-  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer__container {
